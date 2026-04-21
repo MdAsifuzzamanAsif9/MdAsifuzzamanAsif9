@@ -45,12 +45,6 @@
 
 ---
 
-## 📊 GitHub Stats
-<div align="center">
-
-<img alt="GitHub metrics" src="https://raw.githubusercontent.com/MdAsifuzzamanAsif9/MdAsifuzzamanAsif9/main/github-metrics.svg" />
-
-</div>
 
 ---
 
