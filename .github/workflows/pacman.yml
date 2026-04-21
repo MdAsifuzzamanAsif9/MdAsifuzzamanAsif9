@@ -18,7 +18,7 @@ jobs:
       - name: Generate Pac-Man Contribution Graph
         uses: maurodesouza/pacman-contribution-graph@v1
         with:
-          username: mrshakils
+          username: MdAsifuzzamanAsif9
           output_dir: output
 
       - name: Update Pac-Man Graph in README
@@ -26,9 +26,9 @@ jobs:
           sed -i '//,//c\
           \
           <picture>\
-            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrshakils/mrshakils/main/output/pacman-contribution-graph-dark.svg">\
-            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrshakils/mrshakils/main/output/pacman-contribution-graph.svg">\
-            <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/mrshakils/mrshakils/main/output/pacman-contribution-graph.svg">\
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MdAsifuzzamanAsif9/MdAsifuzzamanAsif9/main/output/pacman-contribution-graph-dark.svg">\
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MdAsifuzzamanAsif9/MdAsifuzzamanAsif9/main/output/pacman-contribution-graph.svg">\
+            <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/MdAsifuzzamanAsif9/MdAsifuzzamanAsif9/main/output/pacman-contribution-graph.svg">\
           </picture>\
           ' README.md
 

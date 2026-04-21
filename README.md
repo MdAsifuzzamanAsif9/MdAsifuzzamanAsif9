@@ -38,9 +38,9 @@
 
 ## 🐍 Contribution Snake
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MdAsifuzzamanAsif9/MdAsifuzzamanAsif9/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MdAsifuzzamanAsif9/MdAsifuzzamanAsif9/output/github-snake.svg" />
-  <img alt="github snake animation" src="https://raw.githubusercontent.com/MdAsifuzzamanAsif9/MdAsifuzzamanAsif9/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MdAsifuzzamanAsif9/MdAsifuzzamanAsif9/main/dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MdAsifuzzamanAsif9/MdAsifuzzamanAsif9/main/dist/github-snake.svg" />
+  <img alt="github snake animation" src="https://raw.githubusercontent.com/MdAsifuzzamanAsif9/MdAsifuzzamanAsif9/main/dist/github-snake.svg" />
 </picture>
 
 ---
@@ -48,8 +48,7 @@
 ## 📊 GitHub Stats
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=MdAsifuzzamanAsif9&theme=aura&hide_border=false&include_all_commits=true&count_private=false" height="150" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MdAsifuzzamanAsif9&theme=aura&hide_border=false&layout=compact" height="150" />
+<img alt="GitHub metrics" src="https://raw.githubusercontent.com/MdAsifuzzamanAsif9/MdAsifuzzamanAsif9/main/github-metrics.svg" />
 
 </div>
 
