@@ -1,0 +1,41 @@
+name: Generate Pac-Man Contribution Graph
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Generate Pac-Man Contribution Graph
+        uses: maurodesouza/pacman-contribution-graph@v1
+        with:
+          username: mrshakils
+          output_dir: output
+
+      - name: Update Pac-Man Graph in README
+        run: |
+          sed -i '//,//c\
+          \
+          <picture>\
+            <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mrshakils/mrshakils/main/output/pacman-contribution-graph-dark.svg">\
+            <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mrshakils/mrshakils/main/output/pacman-contribution-graph.svg">\
+            <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/mrshakils/mrshakils/main/output/pacman-contribution-graph.svg">\
+          </picture>\
+          ' README.md
+
+      - name: Commit and Push Changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions
+          author_email: github-actions@github.com
+          message: 'docs: update pacman contribution graph'
+          add: 'README.md output'

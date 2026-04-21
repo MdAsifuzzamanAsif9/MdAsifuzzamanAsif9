@@ -1,0 +1,18 @@
+name: Test Community Action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Test Commit Action
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: 'test: empty commit'
+          # This prevents the action from failing if there are no changes
+          allow_empty: true
