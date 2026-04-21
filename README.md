@@ -48,8 +48,8 @@
 ## 📊 GitHub Stats
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&theme=aura&hide_border=false&include_all_commits=true&count_private=false" height="150" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&theme=aura&hide_border=false&layout=compact" height="150" />
+<img src="https://github-readme-stats.vercel.app/api?username=MdAsifuzzamanAsif9&theme=aura&hide_border=false&include_all_commits=true&count_private=false" height="150" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MdAsifuzzamanAsif9&theme=aura&hide_border=false&layout=compact" height="150" />
 
 </div>
 
